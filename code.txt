@@ -1,0 +1,92 @@
+namespace Testing
+{
+     class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            Console.WriteLine("Enter First No");
+            int a = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter Second No");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+
+            Console.WriteLine("Sum is " + (a + b));
+            
+            
+            int c = 10;
+
+            string data = Convert.ToString(c);
+            Console.WriteLine();
+            
+
+            string name = "ABC";
+
+            Console.WriteLine(c.GetType());
+
+
+            if (c == 10)
+            {
+                Console.WriteLine("Data And Type Is Same");
+            }
+            else
+            {
+                Console.WriteLine("Data And Type Is Not Same");
+            }
+            AND OR NOT
+            &&  ||  !
+           
+
+            int per = 30;
+
+            if (per  >= 80 && per <= 100)
+            {
+                Console.WriteLine("A Grade");
+            }
+            else if(per >= 60 && per < 80){
+                Console.WriteLine("B Grade");
+            }
+
+            else if (per >= 50 && per < 60)
+            {
+                Console.WriteLine("C Grade");
+            }
+
+            else if (per >= 40 && per < 50)
+            {
+                Console.WriteLine("D Grade");
+            }
+            else
+            {
+                Console.WriteLine("Fail");
+            }
+
+             */
+
+            Console.Write("Enter Country");
+            string country = Console.ReadLine();
+
+            Console.Write("Enter Your Age");
+            int age = Convert.ToInt32(Console.ReadLine());
+            
+
+
+            if(country == "Pakistan")
+            {
+                if (age >=  18)
+                {
+                    Console.WriteLine("You Are Able For Vote Cast");
+                }
+                else
+                {
+                    Console.WriteLine("You Are Not Able For Vote Cast");
+                }       
+            }
+            else
+            {
+                Console.WriteLine("You Are Not From Pakistan");
+            }
+        }
+    }
+}
